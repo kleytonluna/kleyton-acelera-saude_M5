@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcação de Consulta</title>
+    <link rel="stylesheet" href="style/style1.css">
+   
+</head>
+<body>
+    <img src="img/logo512.png" alt="">
+    <h1>Marcação de Consulta</h1>
+
+    <form action="#">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="data">Data da Consulta:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="hora">Horário da Consulta:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="especialidade">Especialidade:</label>
+        <select id="especialidade" name="especialidade" required>
+            <option value="">Selecionar</option>
+            <option value="clinica_geral">Clínica Geral</option>
+            <option value="cadiologia">Cardiologia</option>
+            <option value="dermatologia">Dermatologia</option>
+            <option value="endogrinologia">Endogrinologia</option>
+            <option value="ginecologia">Ginecologia</option>
+            <option value="hematologia">Hematologia</option>
+            <option value="neurologia">Neurologia</option>
+            <option value="odontologia">Odontologia</option>
+            <option value="ortopedia">Ortopedia</option>
+            <option value="oncologia">Oncologia</option>
+            <option value="psiquiatria">Psiquiatria</option>
+            <option value="pediatria">Pediatria</option>
+            <option value="urologia">Urologia</option>
+            </select>
+        
+        <button type="submit">Marcar Consulta</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

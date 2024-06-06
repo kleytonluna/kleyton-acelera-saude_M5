@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    margin: 65px 55px;
+    display: flex;
+    align-items: center;
+}
+
+#titulo {
+    font-weight: bold;
+    color: #174B5F;
+    font-size: 25px;
+    z-index: 1;
+}
+
+#logoPng {
+    width: 72px;
+    height: 72px;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+#backgroundHeader {
+    width: 400px;
+    height: 422px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navegacao ul {
+    display: flex;
+    width: 291;
+    height: 43px;
+    justify-content: space-between;
+    margin: 77px 96px;
+    gap: 16px;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+}
+
+#entrar a {
+    background: #C0E5EA;
+    width: 107px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    color: #174B5F;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#cadastrar a {
+    background: #174B5F;
+    width: 168px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    color: #C0E5EA;
+    font-size: 19px;
+    font-weight: bold;
+}
+#ajuda{
+    background: #C0E5EA;
+    width: 107px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    color: #174B5F;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+}
+
+.containerMain {
+    width: 1852px;
+    height: 426px;
+    border-radius: 50px;
+    background: rgb(53,184,21);
+    background: linear-gradient(31deg, rgba(53,184,21,0.3) 16%, rgba(210,255,255,1) 50%);
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    width: 693px;
+    height: 274px;
+    margin-left: 79px;
+}
+
+.titulo h1 {
+    color: #174B5F;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#imagemPrincipal {
+    position: absolute;
+    bottom: 0;
+    margin-left: 646px;
+}
+.todos{
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 9999;
+   
+
+}
+@media (max-width: 1200px) {
+    .cabecalho{
+         padding: 10%;  
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+}
